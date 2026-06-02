@@ -59,7 +59,7 @@ def main(inbox_dir="inbox", output_dir="output"):
     print("=" * 50)
     print(f"Отчёт: {output_path / 'report.txt'}")
 
-if name == "__main__":
+if __name__ == "__main__":
     inbox = sys.argv[1] if len(sys.argv) > 1 else "inbox"
     output = sys.argv[2] if len(sys.argv) > 2 else "output"
     main(inbox, output)
