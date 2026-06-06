@@ -1,3 +1,4 @@
+import pytest
 from pathlib import Path
 from src.email_reader import Email
 from src.email_classifier import EmailClassifier
